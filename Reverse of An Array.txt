@@ -21,7 +21,7 @@ int main() {
    scanf("%d",&arr[i]);
    reverseArray(arr,num);
    printf("Reverse array is...");
-   for(i=0;i<=num-1;i++)                    /*  USE THIS for(i=num-1;i>=0;i--) IF NOT CALL FUNCTION reverseArray */
+   for(i=0;i<=num-1;i++)                    /*  USE THIS DIRECTLY for(i=num-1;i>=0;i--) IF NOT CALL FUNCTION reverseArray() */
    printf("\n%d",arr[i]);
    return 0;
 }
